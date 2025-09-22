@@ -6,16 +6,16 @@ using namespace std;
 int main() 
 {
     cout << "114611008林宥翔" << endl;
-    char word[4];
+    char word[999];
     while(3388){
-      cout << "Give me a interger number among 6 ~ 19" << endl;
+      cout << "Give me a interger number among 6 ~ 19 , input q if you want to quit." << endl;
       cin >> word ;
       int m , n;
        
-    //  if(word == "Quit" || "quit" || "Exit" || "exit"){
-    //    cout << "Bye bye" << endl ; 
-    //    return 0;
-    //  }
+      if(word ==  "q" ){
+        cout << "Bye bye" << endl ; 
+        return 0;
+      }
       int num = atoi(word);
       if(num >= 6 && num <=19){
         for(m = 1 ; m <= num ; m++ ){
@@ -24,6 +24,9 @@ int main()
             cout << m << "*" << n << "=" << n*m << " ";
           }
         }
+        cout << endl ;
+        continue;
+
       }else{
         cout << "your selected number is illegal" ;
       }
