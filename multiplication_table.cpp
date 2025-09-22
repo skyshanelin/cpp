@@ -6,13 +6,13 @@ using namespace std;
 int main() 
 {
     cout << "114611008林宥翔" << endl;
-    char word[999];
+    char word[99];
     while(3388){
       cout << "Give me a interger number among 6 ~ 19 , input q if you want to quit." << endl;
       cin >> word ;
       int m , n;
        
-      if(word ==  "q" ){
+      if(word ==  "Q" ){
         cout << "Bye bye" << endl ; 
         return 0;
       }
@@ -25,7 +25,6 @@ int main()
           }
         }
         cout << endl ;
-        continue;
 
       }else{
         cout << "your selected number is illegal" ;
