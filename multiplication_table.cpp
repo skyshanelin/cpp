@@ -21,7 +21,8 @@ int main()
         for(m = 1 ; m <= num ; m++ ){
           cout << endl ;
           for(n = 1; n <= num ; n++){
-            cout << m << "*" << n << "=" << n*m << " ";
+            cout << n*m << " ";
+
           }
         }
         cout << endl ;
